@@ -8,7 +8,7 @@ create table albums (
     name varchar(150) not null default 'none',
     release_date year,
     sales decimal(12, 2),
-    genre char(255) not null default 'unknown'
+    genre char(255) not null default 'unknown',
     primary key (id)
 
 );
